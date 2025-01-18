@@ -1,0 +1,10 @@
+Package: hello
+Title: Hello World R package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Randy", "Johnson", email = "johnson@hood.edu", role = c("aut", "cre"))
+Description: This package provides functionality to greet people.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
