@@ -1,0 +1,28 @@
+---
+title: "Hello"
+format: gfm
+editor: visual
+---
+
+The `hello` package contains functionality for generating greetings.
+
+## Installation
+
+To install `hello`, install the `devtools` package and run the following command in the R terminal:
+
+```{r}
+#| eval: false
+devtools::install_github('BIFX545-25/hello')
+```
+
+## Examples
+
+The main function in this package is `hello`. Here are a few examples of how to use it.
+
+```{r}
+library(hello)
+
+hello('BIFX 545 students')
+
+hello('Dr Johnson')
+```
